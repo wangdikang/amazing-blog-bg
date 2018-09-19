@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Big Title</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<base target="_blank">
+<body>
+    <div id="wrapper">
+        <h1>Big Title</h1>
+        <h2>words are not important, Look at the background.</h2>
+        <p><a href="https://www.baidu.com">Blog</a></p>
+        <p><a href="https://www.baidu.com">Twitter</a></p>
+        <p><a href="https://www.baidu.com">Github</a></p>
+        <p><a href="https://www.baidu.com">微博</a></p>
+        <p><a href="https://www.baidu.com">知乎</a></p>
+    </div>
+    <canvas></canvas>
+    <script src="./index.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js');
+        }
+    </script>
+</body>
+
+</html>
